@@ -1,0 +1,270 @@
+/* ----------- Inicio ----------- */
+.background {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-right: 10%;
+  margin-left: 10%;
+}
+
+.txt_inicio {
+  color: white;
+  margin-top: 7%;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.phone {
+  height: 500px;
+  margin-left: 2%;
+}
+.phone_gif {
+  height: 500px;
+  margin-left: 2%;
+}
+
+.space_inicio {
+  margin-top: 19%;
+  margin-right: 10%;
+}
+
+@media screen and (max-width: 757px) {
+  .space_inicio {
+    margin-left: 10%;
+    margin-top: 10%;
+  }
+  .btn_google {
+    margin-right: 10%;
+    margin-left: 10%;
+  }
+}
+
+.btn_google {
+  margin-top: 15%;
+  width: 130px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.btn_google:hover {
+  cursor: pointer;
+}
+
+/* ----------- Sobre ----------- */
+.container_sobre {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-right: 2%;
+  margin-left: 2%;
+}
+
+.txt_sobre {
+  color: #c6c5ce;
+  margin-top: 7%;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.txt_sobre2 {
+  color: white;
+  margin-top: 7%;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.space_sobre {
+  margin-right: 10%;
+}
+
+@media screen and (max-width: 890px) {
+  .space_sobre {
+    margin-left: 10%;
+    margin-top: 10%;
+  }
+}
+
+@media screen and (min-width: 990px) {
+  .vertical_line {
+    height: 100px; /*Altura da linha*/
+    border-left: 2px solid; /* Adiciona borda esquerda na div como ser fosse uma linha.*/
+    color: #1f104f;
+    margin-top: 7%;
+    margin-right: 10%;
+  }
+}
+.box {
+  background: #9d9df6;
+  width: 380px;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.title {
+  text-align: center;
+  margin-top: 9%;
+  color: #9d9df6;
+  font-size: 37px;
+  font-weight: bolder;
+  letter-spacing: 2px;
+}
+
+.text_ser_grato {
+  text-align: center;
+  margin-top: 3%;
+  color: #c6c5ce;
+  font-size: 19px;
+  font-weight: bolder;
+  letter-spacing: 1px;
+  line-height: 30px;
+  margin-right: 20%;
+  margin-left: 20%;
+}
+
+.title_download {
+  text-align: center;
+  margin-top: 9%;
+  color: #9d9df6;
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+
+a {
+  color: #9d9df6;
+}
+a:hover {
+  font-weight: bolder;
+}
+
+.container_line {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-right: 10%;
+  margin-left: 10%;
+  margin-top: 9%;
+}
+.horizontal_line {
+  width: 600px;
+  border: 1px solid #000;
+  background-color: #1f104f;
+  align-items: center;
+}
+
+/* ----------- Funcionalidades ----------- */
+.background_func {
+  background-color: #1f104f;
+  margin-top: -3%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  padding: 5%;
+}
+
+.background_func_size {
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+
+.container_func {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-right: 3%;
+  margin-left: 3%;
+  margin-top: 5%;
+}
+
+.men_img {
+  width: 67px;
+}
+.state_img {
+  width: 160px;
+  margin-top: 16%;
+}
+.daily_img {
+  width: 160px;
+}
+.alarm_img {
+  width: 110px;
+  margin-top: 16%;
+  width: 100px;
+}
+.text_func {
+  color: white;
+}
+
+/* ----------- Demo ----------- */
+.background_demo {
+  background-color: white;
+  margin-top: 3%;
+}
+.people_img {
+  width: 250px;
+}
+.txt_demo {
+  color: black;
+}
+.container_demo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-right: 10%;
+  margin-left: 10%;
+}
+
+.space_phone {
+  color: white;
+  margin-top: 7%;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+@media screen and (min-width: 800px) {
+  .space_inicio2 {
+    margin-top: 19%;
+    margin-right: 10%;
+  }
+}
+@media screen and (min-width: 985px) {
+  .space_inicio4 {
+    margin-top: 18%;
+  }
+}
+.space3 {
+  margin-top: 17%;
+}
+@media screen and (max-width: 984px) and (min-width: 511px) {
+  .space_inicio4 {
+    margin-left: 16%;
+    margin-right: 16%;
+  }
+}
+/* ----------- Social ----------- */
+.social_box {
+  width: 50px;
+  height: 90px;
+  background-color: rgba(157, 157, 246, 0.3);
+
+  z-index: 999;
+  position: fixed;
+  margin-top: 20%;
+  text-align: -webkit-center;
+}
+.social_gmail {
+  width: 33px;
+  height: 18px;
+  margin-top: 30%;
+}
+.social_insta {
+  width: 25px;
+  height: 25px;
+  margin-top: 20%;
+}

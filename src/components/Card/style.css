@@ -1,0 +1,81 @@
+.container_team {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 30px;
+  margin-top: 3%;
+}
+
+.container_team .card {
+  position: relative;
+  max-width: 300px;
+  height: 215px;
+  background: white;
+  margin: 30px 10px;
+  padding: 20px 15px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+  transition: 0.3s ease-in-out;
+  border-radius: 5px;
+}
+
+.container_team .card:hover {
+  height: auto;
+}
+
+.container_team .card .imgBx {
+  position: relative;
+  width: 228px;
+  height: 230px;
+  top: -60px;
+  align-self: center;
+  z-index: 1;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+}
+
+.container_team .card .imgBx img {
+  max-width: 100%;
+  border-radius: 4px;
+}
+
+.container_team .card .content {
+  position: relative;
+  margin-top: -140px;
+  padding: 10px 15px;
+  text-align: center;
+  color: #111;
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.3s ease-in-out;
+}
+
+.container_team .card:hover .content {
+  visibility: visible;
+  opacity: 1;
+  margin-top: -40px;
+  transition-delay: 0.3s;
+}
+
+.social_networks {
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.gmail {
+  height: 20px;
+  width: 35px;
+}
+
+.linkdin {
+  height: 20px;
+  width: 21px;
+}
+
+.guithub {
+  height: 21px;
+  width: 41px;
+}

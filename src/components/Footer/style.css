@@ -1,0 +1,15 @@
+.background_footer {
+  background-color: #1f104f;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  padding: 1%;
+  color: white;
+  margin-top: 5%;
+}
+.gmail_footer {
+  height: 15px;
+  width: 29px;
+  margin-left: 1%;
+  margin-right: 1%;
+}
